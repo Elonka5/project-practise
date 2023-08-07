@@ -1,0 +1,203 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+picture {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+.weekly-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 32px;
+}
+
+.header-weekly{
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 109px;
+}
+
+.weekly-wrapper{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.weekly-text{
+    color: #F87719;
+    font-size: 16px;
+}
+
+.header-img-weekly{
+font-size: 12px;
+margin-bottom: 6px;
+}
+
+.text-img-weekly{
+font-size: 12px;
+}
+
+.img-wrapper{
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+.container-img-weekly {
+    position: relative;
+}
+
+.month-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 32px; 
+}
+
+.month-title{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.month-img{
+    margin-bottom: 24px;
+}
+
+.add-to-library{
+    width: 140px;
+    height: 38px;
+    background-color: #FFC226;
+    border-radius: 74px;
+    padding: 12px 24px;
+    font-size: 12px;
+}
+
+.month-title-movie{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.wrapper-month-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-wrapper-left{
+    margin-bottom: 20px;
+}
+
+.release-text,
+.vote-text,
+.popularity-text,
+.genre-text{
+    color: #B7B7B7;
+    margin-bottom: 12px;
+}
+
+.descr-release-text{
+    color: #F87719;
+    margin-bottom: 12px;
+}
+
+.vote-numbers{
+    width: 36px;
+    height: 18px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.votes-numbers{
+    width: 40px;
+    height: 18px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.about-text{
+    margin-bottom: 16px;
+}
+
+.description-text{
+    margin-bottom: 20px;
+}
+
+  @media only screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 32px;
+    }
+  }
+  
